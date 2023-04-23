@@ -94,7 +94,8 @@ public class BacklogBuddy {
 	public String toString() {
 		String output;
 
-		output = mBookTitle  + " " + mBookGenre + " " + mBookId + " " + mBookStatus;
+		output = "Title: " + mBookTitle  + "\nGenre: " + mBookGenre + "\nBook ID: " + mBookId + "\nReading Status: " + mBookStatus;
+		output += "\n";
 		output += "\n";
 		output += getDate();
 		output += "\n";
