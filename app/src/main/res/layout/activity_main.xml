@@ -31,6 +31,7 @@
 		android:gravity = "center"
 		android:hint = "@string/mainBookTitleHint"
 		android:inputType = "textPersonName"
+
 		app:layout_constraintStart_toStartOf = "parent"
 		app:layout_constraintTop_toBottomOf = "@+id/mainBacklogBuddyDisplay" />
 
@@ -76,12 +77,13 @@
 	<Button
 		android:id = "@+id/mainSubmitButton"
 		android:layout_width = "wrap_content"
-		android:layout_height = "0dp"
-		android:layout_marginTop = "324dp"
-		android:layout_marginEnd = "148dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "48dp"
 		android:text = "@string/mainSubmitButton"
-		android:textSize = "20sp"
+		android:textSize = "24sp"
 		app:layout_constraintEnd_toEndOf = "parent"
-		app:layout_constraintTop_toBottomOf = "@+id/mainBacklogBuddyDisplay" />
+		app:layout_constraintHorizontal_bias = "0.502"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBookStatusEditText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
