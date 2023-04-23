@@ -1,3 +1,15 @@
 <resources>
 	<string name = "app_name">BacklogBuddy</string>
+	<string name = "mainBookTitleHint">Enter Book Title</string>
+	<string name = "mainBookGenreHint">Enter Book Genre</string>
+	<string name = "mainBookStatusHint">Enter Reading Status</string>
+	<string name = "mainBookIdHint">Enter Book ID</string>
+	<string name = "mainSubmitButton">Submit</string>
+	<string name = "noLogsMessage">No records, please enter a book!</string>
+	<string name = "logout">Logout?</string>
+	<string name = "yes">Yes</string>
+	<string name = "no">No</string>
+	<string name = "username">Username</string>
+	<string name = "password">Password</string>
+	<string name = "login">Login</string>
 </resources>

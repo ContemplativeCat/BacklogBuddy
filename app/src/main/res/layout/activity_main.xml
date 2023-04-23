@@ -7,12 +7,81 @@
 												   tools:context = ".MainActivity">
 
 	<TextView
-		android:layout_width = "wrap_content"
-		android:layout_height = "wrap_content"
-		android:text = "Hello World!"
-		app:layout_constraintBottom_toBottomOf = "parent"
+		android:id = "@+id/mainBacklogBuddyDisplay"
+		android:layout_width = "374dp"
+		android:layout_height = "221dp"
+		android:layout_marginStart = "16dp"
+		android:layout_marginTop = "24dp"
+		android:layout_marginEnd = "16dp"
+		android:fadeScrollbars = "true"
+		android:scrollbars = "vertical"
+		android:text = "BacklogBuddy"
 		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintHorizontal_bias = "0.012"
 		app:layout_constraintStart_toStartOf = "parent"
 		app:layout_constraintTop_toTopOf = "parent" />
+
+	<EditText
+		android:id = "@+id/mainBookTitleEditText"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "100dp"
+		android:layout_marginTop = "24dp"
+		android:ems = "10"
+		android:gravity = "center"
+		android:hint = "@string/mainBookTitleHint"
+		android:inputType = "textPersonName"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBacklogBuddyDisplay" />
+
+	<EditText
+		android:id = "@+id/mainBookGenreEditText"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "100dp"
+		android:layout_marginTop = "24dp"
+		android:ems = "10"
+		android:gravity = "center"
+		android:hint = "@string/mainBookGenreHint"
+		android:inputType = "textPersonName"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBookTitleEditText" />
+
+	<EditText
+		android:id = "@+id/mainBookIdEditText"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "100dp"
+		android:layout_marginTop = "24dp"
+		android:ems = "10"
+		android:gravity = "center"
+		android:hint = "@string/mainBookIdHint"
+		android:inputType = "numberSigned"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBookGenreEditText" />
+
+	<EditText
+		android:id = "@+id/mainBookStatusEditText"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:layout_marginStart = "100dp"
+		android:layout_marginTop = "24dp"
+		android:ems = "10"
+		android:gravity = "center"
+		android:hint = "@string/mainBookStatusHint"
+		android:inputType = "textPersonName"
+		app:layout_constraintStart_toStartOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBookIdEditText" />
+
+	<Button
+		android:id = "@+id/mainSubmitButton"
+		android:layout_width = "wrap_content"
+		android:layout_height = "0dp"
+		android:layout_marginTop = "324dp"
+		android:layout_marginEnd = "148dp"
+		android:text = "@string/mainSubmitButton"
+		android:textSize = "20sp"
+		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintTop_toBottomOf = "@+id/mainBacklogBuddyDisplay" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
